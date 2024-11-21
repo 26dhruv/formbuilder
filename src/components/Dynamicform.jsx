@@ -27,8 +27,8 @@ export default function Dynamicform({ fields }) {
         return `${field.label} must be a valid number`;
       }
       if (field.name === "age") { // Assuming the field name for age is "age"
-        if ( value > 100) {
-          return "Age must be less than 100";
+        if ( value > 100 || value <0) {
+          return "Age must be less than 100 and greater than 0";
         }
       }
     }
