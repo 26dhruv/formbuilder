@@ -4,7 +4,7 @@ import Dynamicform from "./components/Dynamicform";
 
 function App() {
   const fields = [
-    { name: "name", label: "FirstName", type: "text" },
+    { name: "name", label: "Name", type: "text" },
     { name: "age", label: "Age", type: "number" },
     { name: "subscribe", label: "Subscribe to Newsletter", type: "boolean" },
     {
